@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Projetos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos adicionais */
+        .main-text h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .main-text h2 span {
+            color: #e74c3c; /* Cor para a palavra "Projetos" */
+        }
+
+        .portfolio-content .row {
+            margin-bottom: 30px;
+        }
+
+        .portfolio-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .portfolio-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .portfolio-card .layer {
+            padding: 15px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .portfolio-card .layer h5 {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .portfolio-card .layer p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .portfolio-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .portfolio-card .site-github a {
+            margin: 0 10px;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .portfolio-card .site-github a:hover {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <!-- Seção de Projetos -->
+    <section id="projects" class="projects container">
+        <!-- Linha decorativa -->
+        <div class="line mb-4"></div>
+
+        <!-- Título principal -->
+        <div class="main-text">
+            <h2>Meus <span>Projetos</span></h2>
+        </div>
+
+        <!-- Conteúdo do portfólio -->
+        <div class="portfolio-content row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- Modelo de projeto -->
+            <div class="col">
+                <div class="portfolio-card">
+                    <img src="./img/corolla.png" alt="Landing page Toyota Corolla Cross">
+                    <div class="layer">
+                        <h5>Landing Page Corolla Cross</h5>
+                        <p>Landing page desenvolvida para testes no tema Toyota Corolla Cross.</p>
+                        <div class="site-github">
+                            <a href="https://corollacross-mxa3.vercel.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                            <a href="https://github.com/fabiolcc/COROLLACROSS" target="_blank"><i class="bx bxl-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Demais projetos -->
+            <div class="col">
+                <div class="portfolio-card">
+                    <img src="./img/senhas.png" alt="Sistema de Senhas para Triagem">
+                    <div class="layer">
+                        <h5>Senhas para Triagem</h5>
+                        <p>Sistema desenvolvido para triagem de pacientes na Santa Casa.</p>
+                        <div class="site-github">
+                            <a href="https://sistema-de-senha-santa-casa.vercel.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                            <a href="https://github.com/fabiolcc/SISTEMA-DE-SENHA-SANTA-CASA" target="_blank"><i class="bx bxl-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="portfolio-card">
+                    <img src="./img/cst.png" alt="Landing page Loja de Construção">
+                    <div class="layer">
+                        <h5>Landing Page Loja de Construção</h5>
+                        <p>Landing page desenvolvida para uma loja de materiais de construção.</p>
+                        <div class="site-github">
+                            <a href="https://construmax.vercel.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                            <a href="https://github.com/fabiolcc/CONSTRUMAX" target="_blank"><i class="bx bxl-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="portfolio-card">
+                    <img src="./img/odonto.png" alt="Landing page Clínica de Odontologia">
+                    <div class="layer">
+                        <h5>Landing Page Clínica de Odontologia</h5>
+                        <p>Projeto desenvolvido para uma clínica odontológica.</p>
+                        <div class="site-github">
+                            <a href="https://odontomax.vercel.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                            <a href="https://github.com/fabiolcc/ODONTOMAX" target="_blank"><i class="bx bxl-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="portfolio-card">
+                    <img src="./img/ac.png" alt="Landing page para academias">
+                    <div class="layer">
+                        <h5>Landing Page Academia</h5>
+                        <p>Landing page desenvolvida para academias.</p>
+                        <div class="site-github">
+                            <a href="https://academiass.vercel.app" target="_blank"><i class="bx bx-link-external"></i></a>
+                            <a href="https://github.com/fabiolcc/ACADEMIASS" target="_blank"><i class="bx bxl-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="portfolio-card">
+                    <img src="./img/card.png" alt="Landing page Clínica de Cardiologia">
+                    <div class="layer">
+                        <h5>Landing Page Clínica de Cardiologia</h5>
+                        <p>Landing page desenvolvida para clínica de cardiologia.</p>
+                        <div class="site-github">
+                            <a href="https://clinicadrfuad.vercel.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                            <a href="https://github.com/fabiolcc/CLINICADRFUAD" target="_blank"><i class="bx bxl-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="portfolio-card">
+                    <img src="./img/carrossel.png" alt="Carrossel de imagens">
+                    <div class="layer">
+                        <h5>Carrossel de Imagens</h5>
+                        <p>Carrossel ideal para propagandas e anúncios.</p>
+                        <div class="site-github">
+                            <a href="https://carrossel-1ql1.vercel.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                            <a href="https://github.com/fabiolcc/carrossel" target="_blank"><i class="bx bxl-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="portfolio-card">
+                    <img src="./img/agenda.png" alt="Agenda de compromissos">
+                    <div class="layer">
+                        <h5>Agenda de Compromissos</h5>
+                        <p>Agenda desenvolvida para marcar compromissos de forma eficiente.</p>
+                        <div class="site-github">
+                            <a href="https://agenda-beta-two.vercel.app/" target="_blank"><i class="bx bx-link-external"></i></a>
+                            <a href="https://github.com/fabiolcc/agenda" target="_blank"><i class="bx bxl-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="portfolio-card">
+                    <img src="./img/gestao.png" alt="Sistema de Gestão de TI">
+                    <div class="layer">
+                        <h5>Gestão de TI</h5>
+                        <p>Sistema de gestão de chamados e vídeos tutoriais para setores de TI.</p>
+                        <div class="site-github">
+                            <a href="https://github.com/fabiolcc" target="_blank"><i class="bx bx-link-external"></i></a>
+                            <a href="https://github.com/fabiolcc" target="_blank"><i class="bx bxl-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Botão de Voltar -->
+        <div class="back-button">
+            <a href="index.html" class="btn">Voltar para Início</a>
+        </div>
+    
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
