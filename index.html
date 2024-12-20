@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Fábio Lacerda</title> 
+
+  <!--- link-css --->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+  <!--- link-fonts --->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+  <!-- SEO -->
+  <meta name="description" content="Meu Portfólio - Fábio Lacerda"> 
+
+  <!-- SMO -->
+  <meta property="og:title" content="Portfólio - Fábio Lacerda" >
+  <meta property="og:site_name" content="Portfólio de Fábio Lacerda">
+  <meta property="og:description" content="Sou desenvolvedor web front-end. Aqui você vai encontrar alguns dos meus principais projetos. ">
+  <meta property="og:url" content="https://github.com/fabiolcc">
+  <meta property="og:image" content="./img/home-mobile-light-mode.jpg">
+  <meta property="og:image/type">
+
+
+</head>
+<body>
+  <!-- header design -->
+  <nav>
+      <ul class="navlist">
+        <li class="active" name="nav-li"><a href="#home" class="active" name="nav-a">Início</a></li>
+        <li name="nav-li"><a href="#about" name="nav-a">Sobre</a></li>
+        <li name="nav-li"><a href="#skills" name="nav-a">Habilidades</a></li>
+        <li name="nav-li"><a href="#projects" name="nav-a">Projetos</a></li>
+        <li name="nav-li"><a href="#contact" name="nav-a">Contato</a></li>
+      </ul>
+
+      
+      <div>
+        <ul class="social-network">
+          <li>
+            <div id="switch" onclick="toggleMode()">
+              <button></button>
+              <span></span>
+            </div>
+          </li>
+          <li><a href="https://www.linkedin.com/in/f%C3%A1bio-lacerda-16937b19b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <figure id="fig1"></figure>
+          </a></li>
+          <li><a href="https://github.com/fabiolcc" target="_blank">
+            <figure id="fig2"></figure>
+          </a></li>
+        </ul>
+      </div>
+      
+      <div class="bx bx-menu" id="menu-icon"></div>
+      
+    </nav>
+    
+    <main>
+      <!-- home section -->
+      <section id="home" class="home">
+        <div class="home-presentation">
+          <p class="my-name">meu nome é</p>
+          <h1 id="name">FÁBIO</h1>
+          <h1 id="last-name">LACERDA</h1>
+          <h3><p>sou</p> Desenvolvedor Web <span><strong>|</strong> Front-end</span></h3>
+          <div class="button">
+            <a href="#projects" class="project-button">Projetos</a>
+            <a href="#contact" class="contact-button">Contato</a>
+          </div>
+        </div>
+        <img class="home-mac" src="./img/mac.png" alt="laptop">
+      </section>
+  
+      <!-- about section -->
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="./img/foto-sobre-2.png" alt="">
+        </div>
+        
+        <div class="about-text">
+          <h2><span>SOBRE</span> MIM</h2>
+          <p>
+            Tenho 26 anos. Atualmente trabalho como Analista de Sistemas na Santa Casa de Cafelândia, sou desenvolvedor freelancer 
+            sempre procuro me atualizar as novas tecnologias e demandas das empresas, meu foco principal é o desenvolvimento de sites e Landingpages.
+          </p>
+          <p>
+            O tempo é o ativo mais importante que existe, porque ele é o mais escasso. Todo mundo gostaria
+             de ter mais. Mas, às vezes, perdemos muito do nosso tempo com tarefas repetitivas ou que 
+             demorariam muito para serem executadas. Mas a programação pode dar esse tempo de PRESENTE pra
+              nós! Eu quero poder resolver problemas, transformar vidas, transformar idéias, facilitar o 
+              trabalho de alguém e "dar mais TEMPO" para as pessoas através da programação.
+          </p>
+            <button class="button-cv">
+              <a href="./assets/curriculo-front-end.pdf" download="CV - Fábio Lacerda" class="btn-cv"> Download CV</a>
+            </button>
+            
+          </div>
+          <img src="./img/balls.svg" alt="balls" class="balls">
+      </section>
+      
+      <!-- skills section -->
+      <section class="skills" id="skills">
+  
+        <div class="line"></div>
+        <div class="tech">
+          <h2>TECNOLOGIAS</h2>
+          <div class="techs">
+            <div class="card">
+              <img src="./img/html-icon.svg" alt="icone html">
+              <p>HTML</p>
+            </div>
+            <div class="card">
+              <img src="./img/css-icon.svg" alt="icone css">
+              <p>CSS</p>
+            </div>
+            <div class="card">
+              <img src="./img/js-icon.svg" alt="icone javascript">
+              <p>JavaScript</p>
+            </div>
+            <div class="card">
+              <img src="./img/react-js-icon.svg" alt="icone react.js">
+              <p>React.js</p>
+            </div>
+            <div class="card">
+              <img src="./img/node-js-icon.svg" alt="icone node.js">
+              <p>Node.js</p>
+            </div>
+            <div class="card">
+              <img src="./img/delphi-icon.svg" alt="icone delphi">
+              <p>Delphi</p>
+            </div>
+            <div class="card">
+              <img src="./img/sql-icon.svg" alt="icone sql">
+              <p>SQL</p>
+            </div>
+            <div class="card">
+              <img src="./img/git-icon.svg" alt="icone git">
+              <p>Git</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="line"></div>
+        <div class="tool">
+          <h2>FERRAMENTAS</h2>
+          <div class="tools">
+            <div class="card">
+              <img src="./img/github-icon.svg" alt="icone github">
+              <p>GitHub</p>
+            </div>
+            <div class="card">
+              <img src="./img/vs-code-icon.svg" alt="icone vscode">
+              <p>VSCode</p>
+            </div>
+            <div class="card">
+              <img src="./img/figma-icon.svg" alt="icone figma">
+              <p>Figma</p>
+            </div>
+            <div class="card">
+              <img src="./img/notion-icon.svg" alt="icone notion">
+              <p>Notion</p>
+            </div>
+          </div>
+          
+        </div>
+        
+      </section>
+      
+      <!-- projects section -->
+      <section id="projects" class="projects">
+        <div class="line"></div>
+        <div class="main-text">
+          <h2>Meus <span>Projetos</span></h2>
+        </div>
+  
+        <div class="portfolio-content">
+          
+          <div class="row">
+            <img src="./img/corolla.png" alt="print">
+            <div class="layer">
+              <h5>Landingpage Corolla Cross</h5>
+              <p>Landingpage desenvolvida para testes no tema Toyota Corolla Cross.</p>
+              <div class="site-github">
+                <a href="https://corollacross-mxa3.vercel.app/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fabiolcc/COROLLACROSS" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <img src="./img/senhas.png" alt="print cronometro">
+            <div class="layer">
+              <h5>Senhas para Triagem da Santa Casa</h5>
+              <p>Desenvolvido um sistema de senhas para triagem da santa casa.</p>
+              <div class="site-github">
+                <a href="https://sistema-de-senha-santa-casa.vercel.app/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fabiolcc/SISTEMA-DE-SENHA-SANTA-CASA" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <img src="./img/cst.png" alt="pagina de form">
+            <div class="layer">
+              <h5>Landingpage Loja de Construção</h5>
+              <p>Desenvolvido landingpage para loja de cnstrução.</p>
+              <div class="site-github">
+                <a href="https://construmax.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+                <a href="https://github.com/fabiolcc/CONSTRUMAX" target="_blank"><i class='bx bxl-github'></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <img src="./img/odonto.png" alt="calendario da copa">
+            <div class="layer">
+              <h5>Landingpage Clínica de Odontologia</h5>
+              <p>Projeto desenvolvido para Clínica de Odontologia</p>
+              <div class="site-github">
+                <a href="https://odontomax.vercel.app/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fabiolcc/ODONTOMAX" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <img src="./img/ac.png" alt="jogo do mario">
+            <div class="layer">
+              <h5>Landingpage Academia</h5>
+              <p>Landingpage desenvolvida paara academias.</p>
+              <div class="site-github">
+                <a href="https://academiass.vercel.app" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fabiolcc/ACADEMIASS" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <img src="./img/card.png" alt="rastreador de habitos">
+            <div class="layer">
+              <h5>Landing page Clínica de Cardiologia</h5>
+              <p>Lanfingpage desenvolvida para clínica de Cardiologia.</p>
+              <div class="site-github">
+                <a href="https://clinicadrfuad.vercel.app/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fabiolcc/CLINICADRFUAD" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+                    
+          <div class="row">
+            <img src="./img/carrossel.png" alt="agregador de links">
+            <div class="layer">
+              <h5>Carrossel de Imagens</h5>
+              <p>O Carrossel de imagens é ideal para propagandas e anúncios.</p>
+              <div class="site-github">
+                <a href="https://carrossel-1ql1.vercel.app/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fabiolcc/carrossel" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+                    
+          <div class="row">
+            <img src="./img/agenda.png" alt="page security">
+            <div class="layer">
+              <h5>Agenda de compromissos</h5>
+              <p>Aenda para maarcar compromissos.</p>
+              <div class="site-github">
+                <a href="https://agenda-beta-two.vercel.app/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fabiolcc/agenda" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+                    
+          <div class="row">
+            <img src="./img/gestao.png" alt="page ice cream">
+            <div class="layer">
+              <h5>Gestão de TI</h5>
+              <p>Sistema de gestão de chamados e vídeos tutoriais para setores de ti.</p>
+              <div class="site-github">
+                <a href="https://github.com/fabiolcc" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/fabiolcc" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+                    
+        </div>
+  
+      </section>
+  
+    <!----contact section --->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <div class="main-text">
+          <h2>Entre em <span>contato</span></h2>
+        </div>
+        
+      </div>
+  
+      <div class="contact-form">
+        <form action="https://formsubmit.co/fabiolc32k@hotmail.com" method="POST">
+          <input type="text" name="name" placeholder="Digite seu nome" required>
+          <input type="email" name="email" placeholder="Digite seu melhor e-mail" required>
+          <input type="hidden" name="_captcha" value="false">
+          <textarea type="text" name="text" cols="35" rows="10" placeholder="Como eu posso te ajudar?" required></textarea>
+          <input type="hidden" name="_next" value="https://silver-shortbread-4377d9.netlify.app/#contact">
+          <br>
+          <input type="submit" value="Enviar" class="submit" required>
+        </form>
+      </div>
+  
+      <div class="contact-icons">
+        <a href="https://github.com/fabiolcc" target="_blank"><i class='bx bxl-github' ></i></a>
+        <a href="https://www.linkedin.com/in/f%C3%A1bio-lacerda-16937b19b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://www.instagram.com/fabiolacerdadev/profilecard/?igsh=MWs1ZDltdDdscTMzdQ==" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="mailto:fabiolc32k@hotmail.com" target="_blank"><i class='bx bxl-gmail' ></i></a>
+      </div>
+  
+    </section>
+  </main>
+
+	<!----end section --->
+	<section class="end">
+		<div class="last-text">
+			<p>by Fábio Lacerda <img src="./img/bussola.svg" alt=""> All Rights Reserved.</p>
+		</div>
+
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+		</div>
+	</section>
+
+
+  <!--- link-script --->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
